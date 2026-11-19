@@ -190,6 +190,15 @@
       .replace(/"/g, '&quot;');
   }
 
+  function renderClubShield(club) {
+    if (!club || !club.escudo) return '';
+    const src = String(club.escudo).trim();
+    if (src.startsWith('<svg')) {
+      return src;
+    }
+    return `<img src="${escapeHtml(src)}" alt="Escudo ${escapeHtml(club.sigla || club.nome)}" loading="lazy" />`;
+  }
+
   function computeSquadStrength(club) {
     if (!club || !Array.isArray(club.elenco) || club.elenco.length === 0) {
       return 0;
@@ -294,7 +303,7 @@
             aria-selected="${isActive}"
             title="${escapeHtml(club.nome)}"
           >
-            <span class="club-pill-shield" aria-hidden="true">${club.escudo}</span>
+            <span class="club-pill-shield" aria-hidden="true">${renderClubShield(club)}</span>
             <span class="club-pill-sigla">${escapeHtml(club.sigla)}</span>
           </button>
         `;
@@ -407,7 +416,7 @@
     elements.squadDetailPanel.innerHTML = `
       <div class="squad-club-banner">
         <div class="squad-club-identity">
-          <div class="squad-club-shield" aria-hidden="true">${club.escudo}</div>
+          <div class="squad-club-shield" aria-hidden="true">${renderClubShield(club)}</div>
           <div>
             <h2 class="squad-club-name">${escapeHtml(club.nome)}</h2>
             <span class="squad-club-meta">${escapeHtml(club.sigla)} • ${club.elenco.length} titulares</span>
@@ -794,7 +803,7 @@
               <td class="col-pos">${pos}º</td>
               <td class="col-team">
                 <div class="team-cell">
-                  <span class="team-shield-sm" aria-hidden="true">${row.club.escudo}</span>
+                  <span class="team-shield-sm" aria-hidden="true">${renderClubShield(row.club)}</span>
                   <span class="team-name-text">${escapeHtml(row.club.sigla)}</span>
                 </div>
               </td>
@@ -833,7 +842,7 @@
             <td class="col-pos">${pos}º</td>
             <td class="col-team">
               <div class="team-cell">
-                <span class="team-shield-sm" aria-hidden="true">${row.club.escudo}</span>
+                <span class="team-shield-sm" aria-hidden="true">${renderClubShield(row.club)}</span>
                 <span class="team-name-text">${escapeHtml(row.club.nome)}</span>
               </div>
             </td>
@@ -901,7 +910,7 @@
             <div class="match-row">
               <div class="match-side match-side-home">
                 <span class="match-sigla">${escapeHtml(home.sigla)}</span>
-                <span class="match-shield" aria-hidden="true">${home.escudo}</span>
+                <span class="match-shield" aria-hidden="true">${renderClubShield(home)}</span>
               </div>
 
               <div class="match-score-box">
@@ -931,7 +940,7 @@
               </div>
 
               <div class="match-side match-side-away">
-                <span class="match-shield" aria-hidden="true">${away.escudo}</span>
+                <span class="match-shield" aria-hidden="true">${renderClubShield(away)}</span>
                 <span class="match-sigla">${escapeHtml(away.sigla)}</span>
               </div>
             </div>
@@ -1277,11 +1286,11 @@
       <div class="sumula-scoreboard">
         <div class="sumula-team sumula-team-home">
           <span>${escapeHtml(home.nome)}</span>
-          <span class="match-shield" aria-hidden="true">${home.escudo}</span>
+          <span class="match-shield" aria-hidden="true">${renderClubShield(home)}</span>
         </div>
         <div class="sumula-score">${match.homeGoals} x ${match.awayGoals}</div>
         <div class="sumula-team">
-          <span class="match-shield" aria-hidden="true">${away.escudo}</span>
+          <span class="match-shield" aria-hidden="true">${renderClubShield(away)}</span>
           <span>${escapeHtml(away.nome)}</span>
         </div>
       </div>
@@ -1492,7 +1501,7 @@
                   <div class="ranking-row">
                     <div class="ranking-left">
                       <span class="ranking-pos">${idx + 1}º</span>
-                      <span class="team-shield-sm" aria-hidden="true">${item.club.escudo}</span>
+                      <span class="team-shield-sm" aria-hidden="true">${renderClubShield(item.club)}</span>
                       <div class="ranking-player-info">
                         <span class="ranking-player-name">${escapeHtml(item.player.nome)}</span>
                         <span class="ranking-player-meta">${escapeHtml(item.club.sigla)} • ${item.player.posicao} • ${item.stats.jogos} J</span>
@@ -1663,7 +1672,7 @@
           <div class="summary-club-item">
             <div class="team-cell">
               <strong style="width: 24px;">${startPos + idx}º</strong>
-              <span class="team-shield-sm" aria-hidden="true">${row.club.escudo}</span>
+              <span class="team-shield-sm" aria-hidden="true">${renderClubShield(row.club)}</span>
               <span class="team-name-text">${escapeHtml(row.club.nome)}</span>
             </div>
             <strong>${row.P} pts</strong>
@@ -1687,7 +1696,7 @@
         <div class="leader-compare-box">
           <span class="leader-role">${roleTitle}</span>
           <div class="leader-identity">
-            <span class="team-shield-sm" aria-hidden="true">${entry.club.escudo}</span>
+            <span class="team-shield-sm" aria-hidden="true">${renderClubShield(entry.club)}</span>
             <div>
               <div class="leader-name">${escapeHtml(entry.player.nome)}</div>
               <div class="ranking-player-meta">${escapeHtml(entry.club.sigla)} • ${entry.stats.jogos} jogos</div>
@@ -1729,7 +1738,7 @@
             leader
               ? `<div class="champion-body">
                   <div class="champion-hero">
-                    <div class="champion-shield" aria-hidden="true">${leader.club.escudo}</div>
+                    <div class="champion-shield" aria-hidden="true">${renderClubShield(leader.club)}</div>
                     <div>
                       <span class="champion-tag">1º Lugar</span>
                       <h3 class="champion-name">${escapeHtml(leader.club.nome)}</h3>

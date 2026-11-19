@@ -576,9 +576,11 @@ button {
   justify-content: center;
 }
 
-.club-pill-shield svg {
+.club-pill-shield svg,
+.club-pill-shield img {
   width: 100%;
   height: 100%;
+  object-fit: contain;
   display: block;
 }
 
@@ -610,9 +612,11 @@ button {
   flex-shrink: 0;
 }
 
-.squad-club-shield svg {
+.squad-club-shield svg,
+.squad-club-shield img {
   width: 100%;
   height: 100%;
+  object-fit: contain;
   display: block;
 }
 
@@ -885,9 +889,11 @@ button {
   justify-content: center;
 }
 
-.team-shield-sm svg {
+.team-shield-sm svg,
+.team-shield-sm img {
   width: 100%;
   height: 100%;
+  object-fit: contain;
   display: block;
 }
 
@@ -959,9 +965,11 @@ button {
   justify-content: center;
 }
 
-.match-shield svg {
+.match-shield svg,
+.match-shield img {
   width: 100%;
   height: 100%;
+  object-fit: contain;
   display: block;
 }
 
@@ -1470,9 +1478,11 @@ button {
   flex-shrink: 0;
 }
 
-.champion-shield svg {
+.champion-shield svg,
+.champion-shield img {
   width: 100%;
   height: 100%;
+  object-fit: contain;
   display: block;
 }
 
