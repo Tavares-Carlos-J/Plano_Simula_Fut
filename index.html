@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simulador Brasileirão Série A 2027</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-badge" aria-hidden="true">BR</span>
+        <div class="brand-text">
+          <h1 class="brand-title">Brasileirão Série A</h1>
+          <span class="brand-subtitle">Simulador 2027</span>
+        </div>
+      </div>
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        <button
+          type="button"
+          class="nav-tab is-active"
+          data-tab="tabela-jogos"
+          aria-selected="true"
+        >
+          Tabela &amp; Jogos
+        </button>
+        <button
+          type="button"
+          class="nav-tab"
+          data-tab="planteis"
+          aria-selected="false"
+        >
+          Plantéis
+        </button>
+        <button
+          type="button"
+          class="nav-tab"
+          data-tab="rankings"
+          aria-selected="false"
+        >
+          Rankings
+        </button>
+        <button
+          type="button"
+          class="nav-tab"
+          data-tab="resumo"
+          aria-selected="false"
+        >
+          Resumo da Temporada
+        </button>
+      </nav>
+
+      <div class="header-actions">
+        <button
+          type="button"
+          id="btn-theme-toggle"
+          class="btn btn-ghost"
+          aria-label="Alternar tema claro/escuro"
+          title="Alternar tema"
+        >
+          <span class="theme-icon" aria-hidden="true">🌙</span>
+          <span class="theme-label">Modo Escuro</span>
+        </button>
+
+        <button
+          type="button"
+          id="btn-reset-championship"
+          class="btn btn-danger-outline"
+        >
+          Resetar Campeonato
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="app-main">
+    <!-- ABA 1: TABELA & JOGOS -->
+    <section id="tab-tabela-jogos" class="tab-panel is-active" aria-labelledby="Tabela e Jogos">
+      <div class="standings-matches-grid">
+        <!-- Coluna Esquerda (65%): Classificação -->
+        <div class="card standings-card">
+          <div class="card-header standings-header">
+            <div>
+              <h2 class="card-title">Classificação</h2>
+              <p class="card-subtitle">Temporada 2027</p>
+            </div>
+            <div class="standings-controls">
+              <select
+                id="standings-view-select"
+                class="view-select"
+                aria-label="Selecionar tipo de tabela"
+              >
+                <option value="geral">Classificação Geral</option>
+                <option value="turno1">1º Turno</option>
+                <option value="turno2">2º Turno</option>
+                <option value="mandante">Mandante</option>
+                <option value="visitante">Visitante</option>
+                <option value="ataque">Melhor Ataque</option>
+                <option value="defesa">Melhor Defesa</option>
+                <option value="saldo">Melhor Saldo</option>
+                <option value="mvp">Maior Pontuador da Equipe (MVP)</option>
+              </select>
+              <button
+                type="button"
+                id="btn-spoiler-toggle"
+                class="btn btn-secondary btn-sm"
+                aria-pressed="false"
+              >
+                <span aria-hidden="true">👁️‍🗨️</span>
+                <span class="spoiler-label">Esconder Tabela</span>
+              </button>
+            </div>
+          </div>
+
+          <div id="standings-table-wrapper" class="table-wrapper">
+            <table class="standings-table" aria-label="Tabela de classificação do Brasileirão Série A">
+              <thead id="standings-thead">
+                <tr>
+                  <th scope="col" class="col-pos" title="Posição">Pos</th>
+                  <th scope="col" class="col-team">Time</th>
+                  <th scope="col" class="col-num" title="Pontos">P</th>
+                  <th scope="col" class="col-num" title="Jogos">J</th>
+                  <th scope="col" class="col-num" title="Vitórias">V</th>
+                  <th scope="col" class="col-num" title="Saldo de Gols">SG</th>
+                  <th scope="col" class="col-num" title="Gols Pró">GP</th>
+                </tr>
+              </thead>
+              <tbody id="standings-tbody">
+                <tr class="empty-row">
+                  <td colspan="7">
+                    <div class="empty-state">
+                      <p class="empty-title">Tabela aguardando dados dos clubes</p>
+                      <p class="empty-desc">
+                        Os 20 clubes e os placares das rodadas serão carregados nas próximas etapas.
+                      </p>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <footer class="card-footer zones-legend" aria-label="Legenda das zonas de classificação">
+            <div class="legend-item">
+              <span class="legend-dot zone-libertadores" aria-hidden="true"></span>
+              <span>1º–4º Libertadores</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot zone-pre-libertadores" aria-hidden="true"></span>
+              <span>5º–6º Pré-Libertadores</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot zone-sulamericana" aria-hidden="true"></span>
+              <span>7º–12º Sul-Americana</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot zone-neutro" aria-hidden="true"></span>
+              <span>13º–16º Zona Neutra</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot zone-rebaixados" aria-hidden="true"></span>
+              <span>17º–20º Rebaixados</span>
+            </div>
+          </footer>
+        </div>
+
+        <!-- Coluna Direita (35%): Painel de Jogos -->
+        <aside class="card matches-card" aria-label="Painel de jogos da rodada">
+          <div class="card-header matches-header">
+            <h2 class="card-title">Jogos</h2>
+          </div>
+
+          <div class="matches-sim-actions">
+            <button type="button" id="btn-sim-round" class="btn btn-primary btn-sm">
+              Simular Rodada
+            </button>
+            <button type="button" id="btn-sim-remaining" class="btn btn-secondary btn-sm">
+              Simular Campeonato Restante
+            </button>
+          </div>
+
+          <div class="round-navigator">
+            <button
+              type="button"
+              id="btn-prev-round"
+              class="btn-round"
+              aria-label="Rodada anterior"
+              disabled
+            >
+              &lt;
+            </button>
+            <span id="current-round-label" class="round-title">1ª RODADA</span>
+            <button
+              type="button"
+              id="btn-next-round"
+              class="btn-round"
+              aria-label="Próxima rodada"
+            >
+              &gt;
+            </button>
+          </div>
+
+          <div id="matches-list" class="matches-list">
+            <div class="empty-state empty-state-compact">
+              <p class="empty-title">Confrontos da rodada</p>
+              <p class="empty-desc">
+                Os 10 jogos de cada rodada serão exibidos aqui após a carga dos clubes e geração do calendário.
+              </p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ABA 2: PLANTÉIS -->
+    <section id="tab-planteis" class="tab-panel" aria-labelledby="Plantéis" hidden>
+      <div class="squads-layout">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <h2 class="card-title">Seleção de Clubes</h2>
+              <p class="card-subtitle">Escolha um dos 20 clubes da Série A para visualizar os 11 titulares</p>
+            </div>
+          </div>
+          <div id="squad-club-selector" class="club-selector-grid" role="tablist" aria-label="Selecionar clube">
+            <div class="empty-state empty-state-compact">
+              <p class="empty-desc">Carregando clubes...</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="squad-detail-panel" class="card squad-detail-card">
+          <div class="empty-state">
+            <p class="empty-title">Carregando plantel...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABA 3: RANKINGS -->
+    <section id="tab-rankings" class="tab-panel" aria-labelledby="Rankings" hidden>
+      <div id="rankings-container" class="rankings-grid">
+        <div class="card placeholder-card">
+          <div class="empty-state">
+            <p class="empty-title">Carregando rankings...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABA 4: RESUMO DA TEMPORADA -->
+    <section id="tab-resumo" class="tab-panel" aria-labelledby="Resumo da Temporada" hidden>
+      <div id="summary-container" class="summary-layout">
+        <div class="card placeholder-card">
+          <div class="empty-state">
+            <p class="empty-title">Carregando resumo da temporada...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal Súmula da Partida ("Ver mais") -->
+  <div
+    id="match-modal"
+    class="modal-backdrop"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="match-modal-title"
+    hidden
+  >
+    <div class="modal-dialog">
+      <header class="modal-header">
+        <div>
+          <h2 id="match-modal-title" class="modal-title">Súmula da Partida</h2>
+          <p id="match-modal-subtitle" class="modal-subtitle"></p>
+        </div>
+        <button
+          type="button"
+          id="btn-close-modal"
+          class="btn-modal-close"
+          aria-label="Fechar súmula"
+        >
+          &times;
+        </button>
+      </header>
+      <div id="match-modal-body" class="modal-body"></div>
+      <footer id="match-modal-footer" class="modal-footer"></footer>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
