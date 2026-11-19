@@ -16,11 +16,11 @@
         },
         {
           "id": 2,
-          "nome": "Wesley França",
+          "nome": "Guillermo Varela",
           "posicao": "DEF",
-          "pesoGol": 12,
-          "pesoAssistencia": 48,
-          "pesoCartao": 38
+          "pesoGol": 10,
+          "pesoAssistencia": 44,
+          "pesoCartao": 42
         },
         {
           "id": 3,
@@ -56,11 +56,11 @@
         },
         {
           "id": 7,
-          "nome": "Gerson",
+          "nome": "Jorginho",
           "posicao": "MEI",
-          "pesoGol": 38,
+          "pesoGol": 32,
           "pesoAssistencia": 68,
-          "pesoCartao": 45
+          "pesoCartao": 42
         },
         {
           "id": 8,
@@ -80,11 +80,11 @@
         },
         {
           "id": 10,
-          "nome": "Bruno Henrique",
+          "nome": "Samuel Lino",
           "posicao": "ATA",
           "pesoGol": 72,
-          "pesoAssistencia": 52,
-          "pesoCartao": 35
+          "pesoAssistencia": 64,
+          "pesoCartao": 24
         },
         {
           "id": 11,
@@ -112,10 +112,10 @@
         },
         {
           "id": 13,
-          "nome": "Marcos Rocha",
+          "nome": "Agustín Giay",
           "posicao": "DEF",
-          "pesoGol": 9,
-          "pesoAssistencia": 46,
+          "pesoGol": 10,
+          "pesoAssistencia": 44,
           "pesoCartao": 42
         },
         {
@@ -152,11 +152,11 @@
         },
         {
           "id": 18,
-          "nome": "Richard Ríos",
+          "nome": "Lucas Evangelista",
           "posicao": "MEI",
-          "pesoGol": 36,
-          "pesoAssistencia": 54,
-          "pesoCartao": 56
+          "pesoGol": 34,
+          "pesoAssistencia": 60,
+          "pesoCartao": 44
         },
         {
           "id": 19,
@@ -168,19 +168,19 @@
         },
         {
           "id": 20,
-          "nome": "Estêvão",
+          "nome": "Maurício",
           "posicao": "ATA",
-          "pesoGol": 78,
-          "pesoAssistencia": 80,
-          "pesoCartao": 18
+          "pesoGol": 70,
+          "pesoAssistencia": 64,
+          "pesoCartao": 22
         },
         {
           "id": 21,
-          "nome": "Facundo Torres",
+          "nome": "Felipe Anderson",
           "posicao": "ATA",
-          "pesoGol": 66,
-          "pesoAssistencia": 60,
-          "pesoCartao": 24
+          "pesoGol": 64,
+          "pesoAssistencia": 68,
+          "pesoCartao": 20
         },
         {
           "id": 22,
@@ -232,11 +232,11 @@
         },
         {
           "id": 27,
-          "nome": "Fuentes",
+          "nome": "Renê",
           "posicao": "DEF",
           "pesoGol": 9,
-          "pesoAssistencia": 44,
-          "pesoCartao": 38
+          "pesoAssistencia": 40,
+          "pesoCartao": 42
         },
         {
           "id": 28,
@@ -272,11 +272,11 @@
         },
         {
           "id": 32,
-          "nome": "Canobbio",
+          "nome": "Kevin Serna",
           "posicao": "ATA",
-          "pesoGol": 58,
+          "pesoGol": 62,
           "pesoAssistencia": 54,
-          "pesoCartao": 42
+          "pesoCartao": 32
         },
         {
           "id": 33,
@@ -304,11 +304,11 @@
         },
         {
           "id": 35,
-          "nome": "William",
+          "nome": "Fagner",
           "posicao": "DEF",
-          "pesoGol": 14,
-          "pesoAssistencia": 58,
-          "pesoCartao": 36
+          "pesoGol": 10,
+          "pesoAssistencia": 48,
+          "pesoCartao": 54
         },
         {
           "id": 36,
@@ -320,19 +320,19 @@
         },
         {
           "id": 37,
-          "nome": "João Marcelo",
+          "nome": "Lucas Villalba",
           "posicao": "DEF",
-          "pesoGol": 11,
-          "pesoAssistencia": 10,
-          "pesoCartao": 56
+          "pesoGol": 10,
+          "pesoAssistencia": 12,
+          "pesoCartao": 58
         },
         {
           "id": 38,
-          "nome": "Marlon",
+          "nome": "Kaiki Bruno",
           "posicao": "DEF",
-          "pesoGol": 10,
-          "pesoAssistencia": 48,
-          "pesoCartao": 44
+          "pesoGol": 11,
+          "pesoAssistencia": 46,
+          "pesoCartao": 38
         },
         {
           "id": 39,
@@ -344,11 +344,11 @@
         },
         {
           "id": 40,
-          "nome": "Matheus Henrique",
+          "nome": "Christian",
           "posicao": "MEI",
-          "pesoGol": 35,
-          "pesoAssistencia": 58,
-          "pesoCartao": 48
+          "pesoGol": 34,
+          "pesoAssistencia": 48,
+          "pesoCartao": 52
         },
         {
           "id": 41,
@@ -360,27 +360,27 @@
         },
         {
           "id": 42,
-          "nome": "Dudu",
+          "nome": "Wanderson",
           "posicao": "ATA",
           "pesoGol": 60,
-          "pesoAssistencia": 68,
+          "pesoAssistencia": 62,
           "pesoCartao": 26
         },
         {
           "id": 43,
-          "nome": "Kaio Jorge",
+          "nome": "Keny Arroyo",
           "posicao": "ATA",
-          "pesoGol": 76,
-          "pesoAssistencia": 38,
-          "pesoCartao": 25
+          "pesoGol": 64,
+          "pesoAssistencia": 58,
+          "pesoCartao": 24
         },
         {
           "id": 44,
-          "nome": "Gabriel Barbosa",
+          "nome": "Kaio Jorge",
           "posicao": "ATA",
           "pesoGol": 84,
-          "pesoAssistencia": 36,
-          "pesoCartao": 42
+          "pesoAssistencia": 38,
+          "pesoCartao": 26
         }
       ]
     },
@@ -400,27 +400,27 @@
         },
         {
           "id": 46,
-          "nome": "Santiago Arias",
+          "nome": "Gilberto",
           "posicao": "DEF",
           "pesoGol": 11,
           "pesoAssistencia": 46,
-          "pesoCartao": 44
+          "pesoCartao": 42
         },
         {
           "id": 47,
-          "nome": "Gabriel Xavier",
-          "posicao": "DEF",
-          "pesoGol": 11,
-          "pesoAssistencia": 10,
-          "pesoCartao": 54
-        },
-        {
-          "id": 48,
           "nome": "Kanu",
           "posicao": "DEF",
           "pesoGol": 12,
           "pesoAssistencia": 10,
           "pesoCartao": 62
+        },
+        {
+          "id": 48,
+          "nome": "Ramos Mingo",
+          "posicao": "DEF",
+          "pesoGol": 11,
+          "pesoAssistencia": 12,
+          "pesoCartao": 54
         },
         {
           "id": 49,
@@ -432,19 +432,19 @@
         },
         {
           "id": 50,
-          "nome": "Jean Lucas",
-          "posicao": "MEI",
-          "pesoGol": 36,
-          "pesoAssistencia": 56,
-          "pesoCartao": 52
-        },
-        {
-          "id": 51,
           "nome": "Caio Alexandre",
           "posicao": "MEI",
           "pesoGol": 24,
           "pesoAssistencia": 48,
           "pesoCartao": 64
+        },
+        {
+          "id": 51,
+          "nome": "Jean Lucas",
+          "posicao": "MEI",
+          "pesoGol": 36,
+          "pesoAssistencia": 56,
+          "pesoCartao": 52
         },
         {
           "id": 52,
@@ -472,11 +472,11 @@
         },
         {
           "id": 55,
-          "nome": "Everaldo",
+          "nome": "Willian José",
           "posicao": "ATA",
-          "pesoGol": 75,
-          "pesoAssistencia": 36,
-          "pesoCartao": 30
+          "pesoGol": 80,
+          "pesoAssistencia": 38,
+          "pesoCartao": 28
         }
       ]
     },
@@ -496,27 +496,27 @@
         },
         {
           "id": 57,
-          "nome": "Léo Godoy",
+          "nome": "Hayen Palacios",
           "posicao": "DEF",
           "pesoGol": 10,
           "pesoAssistencia": 42,
-          "pesoCartao": 40
+          "pesoCartao": 42
         },
         {
           "id": 58,
-          "nome": "Thiago Heleno",
-          "posicao": "DEF",
-          "pesoGol": 12,
-          "pesoAssistencia": 10,
-          "pesoCartao": 68
-        },
-        {
-          "id": 59,
-          "nome": "Mateo Gamarra",
+          "nome": "Belezi",
           "posicao": "DEF",
           "pesoGol": 11,
           "pesoAssistencia": 10,
-          "pesoCartao": 58
+          "pesoCartao": 56
+        },
+        {
+          "id": 59,
+          "nome": "Léo",
+          "posicao": "DEF",
+          "pesoGol": 11,
+          "pesoAssistencia": 12,
+          "pesoCartao": 54
         },
         {
           "id": 60,
@@ -528,10 +528,10 @@
         },
         {
           "id": 61,
-          "nome": "Erick",
+          "nome": "Raul",
           "posicao": "MEI",
-          "pesoGol": 30,
-          "pesoAssistencia": 40,
+          "pesoGol": 24,
+          "pesoAssistencia": 36,
           "pesoCartao": 66
         },
         {
@@ -552,27 +552,27 @@
         },
         {
           "id": 64,
-          "nome": "Agustín Canobbio",
+          "nome": "Luiz Fernando",
           "posicao": "ATA",
-          "pesoGol": 58,
-          "pesoAssistencia": 56,
-          "pesoCartao": 44
+          "pesoGol": 68,
+          "pesoAssistencia": 52,
+          "pesoCartao": 28
         },
         {
           "id": 65,
-          "nome": "Cuello",
+          "nome": "Kevin Viveros",
           "posicao": "ATA",
-          "pesoGol": 62,
-          "pesoAssistencia": 62,
-          "pesoCartao": 30
+          "pesoGol": 74,
+          "pesoAssistencia": 34,
+          "pesoCartao": 32
         },
         {
           "id": 66,
-          "nome": "Pablo",
+          "nome": "Alan Kardec",
           "posicao": "ATA",
           "pesoGol": 76,
-          "pesoAssistencia": 30,
-          "pesoCartao": 32
+          "pesoAssistencia": 28,
+          "pesoCartao": 30
         }
       ]
     },
@@ -592,26 +592,26 @@
         },
         {
           "id": 68,
-          "nome": "JP Chermont",
+          "nome": "Igor Vinícius",
           "posicao": "DEF",
-          "pesoGol": 11,
+          "pesoGol": 10,
           "pesoAssistencia": 48,
-          "pesoCartao": 34
+          "pesoCartao": 40
         },
         {
           "id": 69,
-          "nome": "Gil",
+          "nome": "Lucas Veríssimo",
           "posicao": "DEF",
           "pesoGol": 13,
-          "pesoAssistencia": 10,
-          "pesoCartao": 52
+          "pesoAssistencia": 12,
+          "pesoCartao": 54
         },
         {
           "id": 70,
-          "nome": "João Basso",
+          "nome": "Luan Peres",
           "posicao": "DEF",
           "pesoGol": 11,
-          "pesoAssistencia": 11,
+          "pesoAssistencia": 12,
           "pesoCartao": 56
         },
         {
@@ -624,6 +624,14 @@
         },
         {
           "id": 72,
+          "nome": "Willian Arão",
+          "posicao": "MEI",
+          "pesoGol": 26,
+          "pesoAssistencia": 38,
+          "pesoCartao": 62
+        },
+        {
+          "id": 73,
           "nome": "João Schmidt",
           "posicao": "MEI",
           "pesoGol": 25,
@@ -631,44 +639,36 @@
           "pesoCartao": 64
         },
         {
-          "id": 73,
-          "nome": "Diego Pituca",
-          "posicao": "MEI",
-          "pesoGol": 28,
-          "pesoAssistencia": 48,
-          "pesoCartao": 66
-        },
-        {
           "id": 74,
-          "nome": "Neymar",
+          "nome": "Benjamín Rollheiser",
           "posicao": "MEI",
-          "pesoGol": 55,
-          "pesoAssistencia": 94,
-          "pesoCartao": 34
-        },
-        {
-          "id": 75,
-          "nome": "Guilherme",
-          "posicao": "ATA",
-          "pesoGol": 74,
-          "pesoAssistencia": 68,
-          "pesoCartao": 24
-        },
-        {
-          "id": 76,
-          "nome": "Soteldo",
-          "posicao": "ATA",
-          "pesoGol": 60,
-          "pesoAssistencia": 80,
+          "pesoGol": 46,
+          "pesoAssistencia": 78,
           "pesoCartao": 28
         },
         {
-          "id": 77,
-          "nome": "Tiquinho Soares",
+          "id": 75,
+          "nome": "Neymar",
           "posicao": "ATA",
-          "pesoGol": 82,
-          "pesoAssistencia": 38,
-          "pesoCartao": 30
+          "pesoGol": 86,
+          "pesoAssistencia": 92,
+          "pesoCartao": 34
+        },
+        {
+          "id": 76,
+          "nome": "Álvaro Barreal",
+          "posicao": "ATA",
+          "pesoGol": 66,
+          "pesoAssistencia": 64,
+          "pesoCartao": 24
+        },
+        {
+          "id": 77,
+          "nome": "Gabriel Barbosa",
+          "posicao": "ATA",
+          "pesoGol": 84,
+          "pesoAssistencia": 36,
+          "pesoCartao": 42
         }
       ]
     },
@@ -688,11 +688,11 @@
         },
         {
           "id": 79,
-          "nome": "Andrés Hurtado",
+          "nome": "Nathan Mendes",
           "posicao": "DEF",
           "pesoGol": 10,
-          "pesoAssistencia": 44,
-          "pesoCartao": 46
+          "pesoAssistencia": 42,
+          "pesoCartao": 44
         },
         {
           "id": 80,
@@ -704,11 +704,11 @@
         },
         {
           "id": 81,
-          "nome": "Eduardo Santos",
+          "nome": "Guzmán Rodríguez",
           "posicao": "DEF",
           "pesoGol": 11,
           "pesoAssistencia": 10,
-          "pesoCartao": 54
+          "pesoCartao": 56
         },
         {
           "id": 82,
@@ -720,6 +720,14 @@
         },
         {
           "id": 83,
+          "nome": "Gabriel Girotto",
+          "posicao": "MEI",
+          "pesoGol": 22,
+          "pesoAssistencia": 34,
+          "pesoCartao": 68
+        },
+        {
+          "id": 84,
           "nome": "Matheus Fernandes",
           "posicao": "MEI",
           "pesoGol": 24,
@@ -727,36 +735,28 @@
           "pesoCartao": 62
         },
         {
-          "id": 84,
-          "nome": "Lucas Evangelista",
-          "posicao": "MEI",
-          "pesoGol": 34,
-          "pesoAssistencia": 64,
-          "pesoCartao": 44
-        },
-        {
           "id": 85,
-          "nome": "Lincoln",
+          "nome": "Jhon Jhon",
           "posicao": "MEI",
-          "pesoGol": 44,
-          "pesoAssistencia": 74,
+          "pesoGol": 46,
+          "pesoAssistencia": 76,
           "pesoCartao": 26
         },
         {
           "id": 86,
-          "nome": "Henry Mosquera",
+          "nome": "Lucas Barbosa",
           "posicao": "ATA",
-          "pesoGol": 62,
-          "pesoAssistencia": 58,
+          "pesoGol": 66,
+          "pesoAssistencia": 54,
           "pesoCartao": 28
         },
         {
           "id": 87,
-          "nome": "Isidro Pitta",
+          "nome": "Vinicinho",
           "posicao": "ATA",
-          "pesoGol": 78,
-          "pesoAssistencia": 32,
-          "pesoCartao": 30
+          "pesoGol": 60,
+          "pesoAssistencia": 58,
+          "pesoCartao": 24
         },
         {
           "id": 88,
@@ -848,10 +848,10 @@
         },
         {
           "id": 98,
-          "nome": "Júnior Santos",
+          "nome": "Rony",
           "posicao": "ATA",
-          "pesoGol": 76,
-          "pesoAssistencia": 48,
+          "pesoGol": 74,
+          "pesoAssistencia": 46,
           "pesoCartao": 32
         },
         {
@@ -936,10 +936,10 @@
         },
         {
           "id": 108,
-          "nome": "Adson",
+          "nome": "Nuno Moreira",
           "posicao": "ATA",
-          "pesoGol": 58,
-          "pesoAssistencia": 58,
+          "pesoGol": 62,
+          "pesoAssistencia": 60,
           "pesoCartao": 24
         },
         {
@@ -976,11 +976,11 @@
         },
         {
           "id": 112,
-          "nome": "Igor Vinícius",
+          "nome": "Cédric Soares",
           "posicao": "DEF",
           "pesoGol": 10,
-          "pesoAssistencia": 48,
-          "pesoCartao": 40
+          "pesoAssistencia": 46,
+          "pesoCartao": 38
         },
         {
           "id": 113,
@@ -992,11 +992,11 @@
         },
         {
           "id": 114,
-          "nome": "Alan Franco",
+          "nome": "Sabino",
           "posicao": "DEF",
-          "pesoGol": 12,
+          "pesoGol": 11,
           "pesoAssistencia": 12,
-          "pesoCartao": 58
+          "pesoCartao": 56
         },
         {
           "id": 115,
@@ -1016,11 +1016,11 @@
         },
         {
           "id": 117,
-          "nome": "Alisson",
+          "nome": "Marcos Antônio",
           "posicao": "MEI",
           "pesoGol": 30,
-          "pesoAssistencia": 54,
-          "pesoCartao": 48
+          "pesoAssistencia": 56,
+          "pesoCartao": 42
         },
         {
           "id": 118,
@@ -1088,11 +1088,11 @@
         },
         {
           "id": 125,
-          "nome": "Cacá",
+          "nome": "Gustavo Henrique",
           "posicao": "DEF",
           "pesoGol": 13,
           "pesoAssistencia": 10,
-          "pesoCartao": 62
+          "pesoCartao": 60
         },
         {
           "id": 126,
@@ -1104,19 +1104,19 @@
         },
         {
           "id": 127,
-          "nome": "José Martínez",
+          "nome": "Raniele",
           "posicao": "MEI",
-          "pesoGol": 21,
+          "pesoGol": 24,
           "pesoAssistencia": 32,
-          "pesoCartao": 78
+          "pesoCartao": 72
         },
         {
           "id": 128,
-          "nome": "André Carrillo",
+          "nome": "Breno Bidon",
           "posicao": "MEI",
-          "pesoGol": 34,
-          "pesoAssistencia": 64,
-          "pesoCartao": 36
+          "pesoGol": 32,
+          "pesoAssistencia": 56,
+          "pesoCartao": 44
         },
         {
           "id": 129,
@@ -1128,11 +1128,11 @@
         },
         {
           "id": 130,
-          "nome": "Talles Magno",
+          "nome": "André Carrillo",
           "posicao": "ATA",
-          "pesoGol": 64,
-          "pesoAssistencia": 56,
-          "pesoCartao": 24
+          "pesoGol": 60,
+          "pesoAssistencia": 66,
+          "pesoCartao": 32
         },
         {
           "id": 131,
@@ -1184,35 +1184,35 @@
         },
         {
           "id": 136,
-          "nome": "Wagner Leonardo",
+          "nome": "Lucas Halter",
           "posicao": "DEF",
-          "pesoGol": 14,
+          "pesoGol": 12,
           "pesoAssistencia": 12,
-          "pesoCartao": 58
+          "pesoCartao": 56
         },
         {
           "id": 137,
-          "nome": "Lucas Esteves",
+          "nome": "Jamerson",
           "posicao": "DEF",
-          "pesoGol": 12,
-          "pesoAssistencia": 52,
+          "pesoGol": 10,
+          "pesoAssistencia": 46,
           "pesoCartao": 42
         },
         {
           "id": 138,
+          "nome": "Gabriel Baralhas",
+          "posicao": "MEI",
+          "pesoGol": 28,
+          "pesoAssistencia": 42,
+          "pesoCartao": 64
+        },
+        {
+          "id": 139,
           "nome": "Willian Oliveira",
           "posicao": "MEI",
           "pesoGol": 26,
           "pesoAssistencia": 32,
           "pesoCartao": 70
-        },
-        {
-          "id": 139,
-          "nome": "Ricardo Ryller",
-          "posicao": "MEI",
-          "pesoGol": 24,
-          "pesoAssistencia": 40,
-          "pesoCartao": 60
         },
         {
           "id": 140,
@@ -1224,27 +1224,27 @@
         },
         {
           "id": 141,
-          "nome": "Gustavo Mosquito",
+          "nome": "Erick",
           "posicao": "ATA",
-          "pesoGol": 56,
-          "pesoAssistencia": 58,
+          "pesoGol": 60,
+          "pesoAssistencia": 56,
           "pesoCartao": 26
         },
         {
           "id": 142,
           "nome": "Osvaldo",
           "posicao": "ATA",
-          "pesoGol": 60,
-          "pesoAssistencia": 62,
+          "pesoGol": 58,
+          "pesoAssistencia": 60,
           "pesoCartao": 28
         },
         {
           "id": 143,
-          "nome": "Alerrandro",
+          "nome": "Renato Kayzer",
           "posicao": "ATA",
-          "pesoGol": 82,
+          "pesoGol": 80,
           "pesoAssistencia": 32,
-          "pesoCartao": 26
+          "pesoCartao": 34
         }
       ]
     },
@@ -1264,15 +1264,15 @@
         },
         {
           "id": 145,
-          "nome": "Natanael",
+          "nome": "Alex Silva",
           "posicao": "DEF",
           "pesoGol": 10,
-          "pesoAssistencia": 44,
+          "pesoAssistencia": 42,
           "pesoCartao": 44
         },
         {
           "id": 146,
-          "nome": "Benevenuto",
+          "nome": "Maicon",
           "posicao": "DEF",
           "pesoGol": 11,
           "pesoAssistencia": 10,
@@ -1280,19 +1280,19 @@
         },
         {
           "id": 147,
+          "nome": "Jacy",
+          "posicao": "DEF",
+          "pesoGol": 11,
+          "pesoAssistencia": 10,
+          "pesoCartao": 58
+        },
+        {
+          "id": 148,
           "nome": "Bruno Melo",
           "posicao": "DEF",
           "pesoGol": 12,
           "pesoAssistencia": 14,
           "pesoCartao": 58
-        },
-        {
-          "id": 148,
-          "nome": "Jamerson",
-          "posicao": "DEF",
-          "pesoGol": 9,
-          "pesoAssistencia": 46,
-          "pesoCartao": 42
         },
         {
           "id": 149,
@@ -1304,18 +1304,18 @@
         },
         {
           "id": 150,
-          "nome": "Vini Paulista",
+          "nome": "Filipe Machado",
           "posicao": "MEI",
-          "pesoGol": 26,
-          "pesoAssistencia": 44,
-          "pesoCartao": 56
+          "pesoGol": 24,
+          "pesoAssistencia": 38,
+          "pesoCartao": 66
         },
         {
           "id": 151,
           "nome": "Josué",
           "posicao": "MEI",
-          "pesoGol": 42,
-          "pesoAssistencia": 74,
+          "pesoGol": 44,
+          "pesoAssistencia": 76,
           "pesoCartao": 30
         },
         {
@@ -1328,11 +1328,11 @@
         },
         {
           "id": 153,
-          "nome": "Matheus Frizzo",
+          "nome": "Pedro Rocha",
           "posicao": "ATA",
           "pesoGol": 70,
-          "pesoAssistencia": 58,
-          "pesoCartao": 26
+          "pesoAssistencia": 54,
+          "pesoCartao": 28
         },
         {
           "id": 154,
@@ -1432,10 +1432,10 @@
         },
         {
           "id": 165,
-          "nome": "Igor Jesus",
+          "nome": "Arthur Cabral",
           "posicao": "ATA",
-          "pesoGol": 86,
-          "pesoAssistencia": 44,
+          "pesoGol": 82,
+          "pesoAssistencia": 34,
           "pesoCartao": 28
         }
       ]
@@ -1448,11 +1448,11 @@
       "elenco": [
         {
           "id": 166,
-          "nome": "Alex Muralha",
+          "nome": "Walter",
           "posicao": "GOL",
           "pesoGol": 1,
           "pesoAssistencia": 2,
-          "pesoCartao": 14
+          "pesoCartao": 12
         },
         {
           "id": 167,
@@ -1472,11 +1472,11 @@
         },
         {
           "id": 169,
-          "nome": "Luiz Otávio",
+          "nome": "Jemmes",
           "posicao": "DEF",
           "pesoGol": 11,
           "pesoAssistencia": 10,
-          "pesoCartao": 58
+          "pesoCartao": 54
         },
         {
           "id": 170,
@@ -1520,19 +1520,19 @@
         },
         {
           "id": 175,
-          "nome": "Iury Castilho",
+          "nome": "Edson Carioca",
           "posicao": "ATA",
           "pesoGol": 64,
-          "pesoAssistencia": 42,
-          "pesoCartao": 30
+          "pesoAssistencia": 48,
+          "pesoCartao": 28
         },
         {
           "id": 176,
-          "nome": "Chico Kim",
+          "nome": "Chico da Costa",
           "posicao": "ATA",
-          "pesoGol": 68,
-          "pesoAssistencia": 48,
-          "pesoCartao": 24
+          "pesoGol": 76,
+          "pesoAssistencia": 34,
+          "pesoCartao": 28
         }
       ]
     },
@@ -1576,19 +1576,19 @@
         },
         {
           "id": 181,
-          "nome": "Reverson",
+          "nome": "Maykon Jesus",
           "posicao": "DEF",
           "pesoGol": 10,
           "pesoAssistencia": 44,
-          "pesoCartao": 42
+          "pesoCartao": 40
         },
         {
           "id": 182,
-          "nome": "Geovane",
+          "nome": "Luís Oyama",
           "posicao": "MEI",
-          "pesoGol": 24,
-          "pesoAssistencia": 36,
-          "pesoCartao": 64
+          "pesoGol": 26,
+          "pesoAssistencia": 42,
+          "pesoCartao": 60
         },
         {
           "id": 183,
@@ -1600,11 +1600,11 @@
         },
         {
           "id": 184,
-          "nome": "Eduardo",
+          "nome": "Rômulo",
           "posicao": "MEI",
-          "pesoGol": 38,
-          "pesoAssistencia": 68,
-          "pesoCartao": 30
+          "pesoGol": 42,
+          "pesoAssistencia": 72,
+          "pesoCartao": 26
         },
         {
           "id": 185,
@@ -1616,15 +1616,15 @@
         },
         {
           "id": 186,
-          "nome": "Pablo Dyego",
+          "nome": "Robson",
           "posicao": "ATA",
-          "pesoGol": 62,
+          "pesoGol": 68,
           "pesoAssistencia": 48,
-          "pesoCartao": 26
+          "pesoCartao": 30
         },
         {
           "id": 187,
-          "nome": "Rodolfo",
+          "nome": "Neto Pessoa",
           "posicao": "ATA",
           "pesoGol": 72,
           "pesoAssistencia": 32,
@@ -1640,7 +1640,7 @@
       "elenco": [
         {
           "id": 188,
-          "nome": "Gustavo",
+          "nome": "Jandrei",
           "posicao": "GOL",
           "pesoGol": 1,
           "pesoAssistencia": 2,
@@ -1656,19 +1656,19 @@
         },
         {
           "id": 190,
-          "nome": "Danilo Boza",
-          "posicao": "DEF",
-          "pesoGol": 12,
-          "pesoAssistencia": 10,
-          "pesoCartao": 58
-        },
-        {
-          "id": 191,
           "nome": "Rodrigo Sam",
           "posicao": "DEF",
           "pesoGol": 11,
           "pesoAssistencia": 10,
           "pesoCartao": 62
+        },
+        {
+          "id": 191,
+          "nome": "Abner",
+          "posicao": "DEF",
+          "pesoGol": 11,
+          "pesoAssistencia": 10,
+          "pesoCartao": 54
         },
         {
           "id": 192,
@@ -1688,11 +1688,11 @@
         },
         {
           "id": 194,
-          "nome": "Mandaca",
+          "nome": "Caíque",
           "posicao": "MEI",
-          "pesoGol": 30,
-          "pesoAssistencia": 44,
-          "pesoCartao": 56
+          "pesoGol": 26,
+          "pesoAssistencia": 36,
+          "pesoCartao": 66
         },
         {
           "id": 195,
@@ -1712,11 +1712,11 @@
         },
         {
           "id": 197,
-          "nome": "Ênio",
+          "nome": "Gabriel Taliari",
           "posicao": "ATA",
-          "pesoGol": 58,
-          "pesoAssistencia": 54,
-          "pesoCartao": 24
+          "pesoGol": 68,
+          "pesoAssistencia": 48,
+          "pesoCartao": 28
         },
         {
           "id": 198,
@@ -1752,19 +1752,19 @@
         },
         {
           "id": 201,
+          "nome": "Adriano Martins",
+          "posicao": "DEF",
+          "pesoGol": 11,
+          "pesoAssistencia": 10,
+          "pesoCartao": 58
+        },
+        {
+          "id": 202,
           "nome": "Alix Vinícius",
           "posicao": "DEF",
           "pesoGol": 12,
           "pesoAssistencia": 10,
           "pesoCartao": 60
-        },
-        {
-          "id": 202,
-          "nome": "Pedro Henrique",
-          "posicao": "DEF",
-          "pesoGol": 11,
-          "pesoAssistencia": 10,
-          "pesoCartao": 62
         },
         {
           "id": 203,
@@ -1784,11 +1784,11 @@
         },
         {
           "id": 205,
-          "nome": "Baralhas",
+          "nome": "Willian Maranhão",
           "posicao": "MEI",
-          "pesoGol": 28,
-          "pesoAssistencia": 42,
-          "pesoCartao": 64
+          "pesoGol": 24,
+          "pesoAssistencia": 36,
+          "pesoCartao": 66
         },
         {
           "id": 206,
@@ -1808,9 +1808,9 @@
         },
         {
           "id": 208,
-          "nome": "Janderson",
+          "nome": "Marcelinho",
           "posicao": "ATA",
-          "pesoGol": 56,
+          "pesoGol": 60,
           "pesoAssistencia": 52,
           "pesoCartao": 26
         },
@@ -1848,19 +1848,19 @@
         },
         {
           "id": 212,
+          "nome": "Emanuel Brítez",
+          "posicao": "DEF",
+          "pesoGol": 12,
+          "pesoAssistencia": 12,
+          "pesoCartao": 62
+        },
+        {
+          "id": 213,
           "nome": "Kuscevic",
           "posicao": "DEF",
           "pesoGol": 12,
           "pesoAssistencia": 10,
           "pesoCartao": 56
-        },
-        {
-          "id": 213,
-          "nome": "Titi",
-          "posicao": "DEF",
-          "pesoGol": 11,
-          "pesoAssistencia": 10,
-          "pesoCartao": 58
         },
         {
           "id": 214,
@@ -1880,11 +1880,11 @@
         },
         {
           "id": 216,
-          "nome": "Hércules",
+          "nome": "Lucas Sasha",
           "posicao": "MEI",
-          "pesoGol": 34,
-          "pesoAssistencia": 52,
-          "pesoCartao": 54
+          "pesoGol": 28,
+          "pesoAssistencia": 42,
+          "pesoCartao": 62
         },
         {
           "id": 217,
@@ -1904,10 +1904,10 @@
         },
         {
           "id": 219,
-          "nome": "Moisés",
+          "nome": "Breno Lopes",
           "posicao": "ATA",
           "pesoGol": 72,
-          "pesoAssistencia": 58,
+          "pesoAssistencia": 54,
           "pesoCartao": 28
         },
         {
