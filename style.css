@@ -569,8 +569,8 @@ button {
 }
 
 .club-pill-shield {
-  width: 30px;
-  height: 30px;
+  width: 36px;
+  height: 36px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -607,8 +607,8 @@ button {
 }
 
 .squad-club-shield {
-  width: 48px;
-  height: 48px;
+  width: 56px;
+  height: 56px;
   flex-shrink: 0;
 }
 
@@ -881,8 +881,8 @@ button {
 }
 
 .team-shield-sm {
-  width: 22px;
-  height: 22px;
+  width: 26px;
+  height: 26px;
   flex-shrink: 0;
   display: inline-flex;
   align-items: center;
@@ -957,8 +957,8 @@ button {
 }
 
 .match-shield {
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
   flex-shrink: 0;
   display: inline-flex;
   align-items: center;
@@ -1473,8 +1473,8 @@ button {
 }
 
 .champion-shield {
-  width: 56px;
-  height: 56px;
+  width: 64px;
+  height: 64px;
   flex-shrink: 0;
 }
 
